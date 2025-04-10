@@ -1,0 +1,29 @@
+# Composer
+/vendor/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.cache
+*.swp
+
+# Configurações locais
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Banco de dados local
+*.sqlite
+*.sqlite3
+
+# Node (caso use JS futuramente)
+node_modules/
+dist/
+coverage/
