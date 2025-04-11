@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="getPost.php" method="post">
+    <form action="../basics/getPost.php" method="post">
         <label>username</label><br>
         <input type="text" name = "username"><br>
         <label>password</label><br>
@@ -42,4 +42,5 @@
 
     echo "{$_POST["username"]} <br>";
     echo $_POST["password"] . "<br>";
+
 ?>
